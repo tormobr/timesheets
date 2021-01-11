@@ -48,10 +48,10 @@ def UI(can):
         can.drawString(*birth, input(f"\t{HEADER}Birth Date: {ENDC}"))
         can.drawString(*subject, input(f"\t{HEADER}Subject: {ENDC}"))
     else:
-        can.drawString(*first_name, "My-Name")
-        can.drawString(*last_name, "My-Last-Name")
-        can.drawString(*birth, "1213221")
-        can.drawString(*subject, "IN1234")
+        can.drawString(*first_name, "Tormod")
+        can.drawString(*last_name, "Brændshøi")
+        can.drawString(*birth, "16-09-1995")
+        can.drawString(*subject, "IN-3000")
 
     can.drawString(*month, datetime.today().strftime("%B"))
 
